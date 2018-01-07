@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<p>
+			Hi，This is a list
+		</p>
+		<table border=1>
+			{% for row in results %}
+			<tr>
+				<td>{{row[0]}}</td>
+				<td>{{row[1]}}</td>
+				<td>{{row[2]}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
